@@ -142,8 +142,8 @@ var settings = {
 				i = 0;
 
 		// Turn off indicators if we only have one slide.
-			if ($slides.length == 1)
-				options.indicators = false;
+			// if ($slides.length == 1)
+			options.indicators = false;
 
 		// Functions.
 			$this._switchTo = function(x, stop) {
